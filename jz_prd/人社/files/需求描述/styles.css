@@ -1,0 +1,41 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:309px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u968_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:210px;
+  height:161px;
+}
+#u968 {
+  border-width:0px;
+  position:absolute;
+  left:110px;
+  top:287px;
+  width:199px;
+  height:150px;
+  font-family:'PingFangHK-Thin', 'PingFang HK Thin', 'PingFang HK';
+  font-weight:200;
+  font-style:normal;
+}
+#u968_text {
+  border-width:0px;
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:179px;
+  word-wrap:break-word;
+}
