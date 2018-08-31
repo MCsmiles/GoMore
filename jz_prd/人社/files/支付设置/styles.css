@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:10px;
+  width:404px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -11,4 +11,28 @@
 #base {
   position:absolute;
   z-index:0;
+}
+#u4421_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:301px;
+  height:37px;
+}
+#u4421 {
+  border-width:0px;
+  position:absolute;
+  left:104px;
+  top:130px;
+  width:300px;
+  height:36px;
+}
+#u4421_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  word-wrap:break-word;
 }
