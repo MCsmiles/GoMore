@@ -301,14 +301,16 @@
   top:120px;
   width:200px;
   height:40px;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
 }
 #u618_text {
   border-width:0px;
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
+  left:2px;
+  top:11px;
+  width:196px;
   word-wrap:break-word;
 }
 #u619_img {
