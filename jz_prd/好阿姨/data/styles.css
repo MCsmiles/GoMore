@@ -71,6 +71,8 @@
 .paragraph {
   text-align:left;
 }
+.line {
+}
 .text_field {
   color:#000000;
   text-align:left;
@@ -90,6 +92,17 @@
 }
 .table_cell {
 }
+.connector {
+  font-family:'PingFangHK-Medium', 'PingFang HK Medium', 'PingFang HK';
+  font-weight:500;
+  font-style:normal;
+  font-size:14px;
+  color:#1E1E1E;
+  text-align:center;
+  line-height:normal;
+}
+.box_3 {
+}
 .sticky_1 {
   text-align:left;
 }
@@ -97,4 +110,12 @@
 }
 .radio_button {
   text-align:left;
+}
+.html_button {
+  text-align:center;
+}
+.shape {
+}
+.image1 {
+  color:#000000;
 }
