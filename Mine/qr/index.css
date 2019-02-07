@@ -1,0 +1,33 @@
+body {
+    background: #dcdcdc;
+}
+
+.result {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: white;
+}
+
+span {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    font-size: 20px;
+    top: -8px;
+    color: gray;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.link {
+    margin-top: 20px;
+    text-align: center;
+}

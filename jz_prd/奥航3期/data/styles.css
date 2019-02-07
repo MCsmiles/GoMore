@@ -7,6 +7,15 @@
   text-align:center;
   line-height:normal;
 }
+.shape {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
 .heading_1 {
   font-family:'ArialMT', 'Arial';
   font-weight:bold;
@@ -58,7 +67,7 @@
   font-size:14px;
   text-align:left;
 }
-.shape {
+.shape1 {
 }
 .iconfont {
   font-family:'iconfont';

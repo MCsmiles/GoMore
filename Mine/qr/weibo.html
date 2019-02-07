@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var url = 'http://v.juhe.cn/historyWeather/provinceurl'
+            var httpRequest = new XMLHttpRequest(); //第一步：建立所需的对象
+            httpRequest.open('GET', url, true); //第二步：打开连接  将请求参数写在url中  ps:"./Ptest.php?name=test&nameone=testone"
+            httpRequest.send();
+            httpRequest.onreadystatechange = function() {
+                if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+                    var json = httpRequest.responseText; //获取到json字符串，还需解析
+                    console.log(json);
+                }
+            }
+
+
+        }
+
+        function displayContent(content) {
+            var p = document.getElementById("content");
+            p.innerHTML = content;
+    </script>
+</head>
+
+<body>
+    <div id="content"></div>
+</body>
+
+</html>
